@@ -17,7 +17,7 @@ A simple restricted zone script with a UI for FiveM.
 - For support, DM me: [Discord](https://discordapp.com/users/1144356480968040469)
 
 ### Future Plans:
-- Configurable through a config file
+- Configurable through a config.lua file
 
 
 ---
@@ -36,4 +36,4 @@ A simple restricted zone script with a UI for FiveM.
 - Für Support, schreibe mir eine DM: [Discord](https://discordapp.com/users/1144356480968040469)
 
 ### Zukünftige Pläne:
-- Konfiguration über eine Konfigurationsdatei
+- Konfiguration über eine config.lua datei
