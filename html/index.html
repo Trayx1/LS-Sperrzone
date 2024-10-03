@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sperrzone Verwaltung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Linker Bereich: Sperrzone erstellen -->
+        <div class="zone-section">
+            <h2>Sperrzone erstellen</h2>
+            <label for="radius">Radius:</label>
+            <input type="range" id="radius" min="30" max="250" value="50" step="10">
+            <span id="radius-value">50 Meter</span>
+            <button id="createZone">Sperrzone erstellen</button>
+        </div>
+
+        <!-- Rechter Bereich: Sperrzonen anzeigen -->
+        <div class="zone-section zone-scroll">
+            <h2>Aktuelle Sperrzonen</h2>
+            <ul id="zones-list">
+                <!-- Hier werden die vorhandenen Sperrzonen angezeigt -->
+            </ul>
+        </div>
+
+        <!-- Button zum Schließen -->
+        <button id="closeBtn">&times;</button>
+    </div>
+
+    <!-- JavaScript laden (Pfad überprüfen) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
